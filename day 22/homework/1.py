@@ -12,12 +12,14 @@ num2=int(input("Enter number: "))
 
 
 if num1>num2:
-    print(list[num1:num2])
+    print(list[num2:num1])
     
 elif num2>num1:
-    print(list[num2:num1])
+    print(list[num1:num2])
 else:
-    print=([])
+    print([])
+
+
 
 
 
