@@ -1,0 +1,27 @@
+body {
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#image {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 500px; 
+     
+    
+}
+
+#text {
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    bottom: 240px;
+    left:220px;
+
+    color: rgb(255, 0, 0);
+    text-align: center;
+}

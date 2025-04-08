@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    
+    
+}
+
+div {
+    border: blue solid;
+    padding: 100px;
+    margin: 50px;
+    
+
+    
+}
+
+#grow{
+    flex-grow: 2;
+    
+}
+
+

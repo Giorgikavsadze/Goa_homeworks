@@ -1,0 +1,13 @@
+div{
+    border: 5px black solid;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: border-width 0.5s;
+    
+}
+
+div:hover{
+    
+    border-width: 15px;
+}

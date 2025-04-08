@@ -1,0 +1,9 @@
+p,h1,button{
+    color:green;
+    text-align: center;
+}
+
+button{
+    background-color: blue;
+    border:dotted
+}

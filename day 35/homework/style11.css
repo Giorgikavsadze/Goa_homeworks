@@ -1,0 +1,9 @@
+th{
+    border:solid blue;
+    background-color: #ff0000;
+}
+
+table,td,tr{
+    border:solid blue;
+    border-collapse: collapse;
+}

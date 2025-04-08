@@ -1,0 +1,54 @@
+#hello{
+    text-decoration: underline dashed #00ff00;
+    text-align: right;
+
+}
+
+
+#world{
+    text-align: center;
+    text-decoration: line-through;
+
+}
+
+#mark{
+    text-decoration: overline double #ff0000;
+
+}
+
+#goal{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+#oriented{
+    text-decoration: line-through dashed #00ff00;
+    text-align: right;
+
+}  
+
+#academy {
+    text-decoration: line-through;
+}
+
+#is{
+    text-decoration: overline;
+}
+
+#the{
+    color:#00ff00;
+    text-align: right;
+    text-decoration: overline;
+}
+
+#best{
+    color: #9597a0;
+    text-align: center;
+    text-decoration: overline;
+}
+
+#one{
+    text-align: right;
+    text-decoration: underline dashed #00ff00;
+}

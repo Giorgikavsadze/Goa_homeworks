@@ -1,0 +1,29 @@
+#parent{
+    position: relative;
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+
+#child1{
+    position: absolute;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    left:100px;
+
+}
+
+
+#child2{
+    position: absolute;
+    border: 5px solid black;
+    width: 100px;
+    height: 100px; 
+    left: 220px;
+    top: 200px;
+    
+    
+}

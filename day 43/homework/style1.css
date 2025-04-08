@@ -1,0 +1,43 @@
+section{
+    display:flex;
+    justify-content: space-between;
+   
+    
+
+}
+
+aside{
+    margin-left:1600px;
+    background-color: antiquewhite;
+    height: 30vh;
+    width:15vh;
+    text-align: center;
+
+}
+
+nav{
+    margin-right: 40px;
+    
+}
+
+article{
+    margin-left: 20px;
+}
+
+header,footer{
+    background-color: rgb(8, 224, 8);
+    padding: 20px;
+
+    
+
+}
+
+
+div{
+    background-color:#a1f1ff ;
+    height: 30vh;
+    width:11vh;
+    
+    text-align: end;
+    
+}

@@ -1,0 +1,20 @@
+
+button{
+    color: black;
+    border: solid black 10px;
+    border-radius:20px ;
+    background-color: white;
+    padding:25px;
+    
+}
+
+div{
+    padding:25px;
+    background-color: white;
+    width: 10%;
+}
+
+
+body{
+    background-color: gray;
+}

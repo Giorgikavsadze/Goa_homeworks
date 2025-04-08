@@ -1,0 +1,21 @@
+#table1 tr:nth-child(1){
+    background-color:#ff0000;
+    color:#ffffff;
+    
+}
+
+td,th,table{
+    border:solid 1px ;
+    border-collapse:collapse;
+}
+
+
+#table2 tr:nth-child(1){
+    background-color:#00a800;
+    color:#ffffff;
+}
+
+#table3 tr:nth-child(1){
+    background-color: #0000ff;
+    color:#ffffff;
+}

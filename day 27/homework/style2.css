@@ -1,0 +1,116 @@
+/* Body background color */
+body{
+    background-color: blue;
+}
+
+/* Brand name text styling */
+.Brand{
+    text-align: left;
+    color:white;
+}
+
+/* Navigation menu styling */
+nav{
+    color:white;
+    font-size: medium;
+    text-align: center;
+}
+
+/* Login button styling */
+.login{
+    font-size: larger;
+    float: right;
+    color:white;
+    border: blue;
+    background-color: blue;
+}
+
+/* Join Us button styling */
+.join_us{
+    font-size: larger;
+    float: right;
+    color:white;
+    background-color: rgb(52, 133, 255); /* Blue shade */
+    border: blue;
+}
+
+/* Join text styling */
+.join{
+    color:white;
+    text-align: center;
+    font-size: medium;
+}
+
+/* Main heading styling */
+h1{
+    text-align: center;
+    color:white;
+    font-size: 60px;
+}
+
+/* Text description styling */
+.txt{
+    color:white;
+    text-align: center;
+}
+
+/* Learn More button styling */
+.more{
+    font-size: larger;
+    color:cyan;
+    background-color: blue;
+    border-color:cyan;
+}
+
+/* Get Quote button styling */
+.quete{
+    font-size: larger;
+    color:white;
+    background-color: rgb(52, 133, 255); /* Blue shade */
+    border:blue;
+}
+
+/* Footer background color */
+footer{
+    background-color: white;
+}
+
+/* Books section title styling */
+.books{
+    font-size:larger;
+}
+
+/* Market Analysis title styling */
+.marketa{
+    text-align: center;
+    font-size: larger;
+}
+
+/* Market Analysis description styling */
+.y{
+    text-align: center;
+}
+
+/* Borders around footer sections */
+.book{
+    border:solid;
+}
+
+.market{
+    border:solid;
+}
+
+.online{
+    border:solid;
+}
+
+/* Courses section title alignment and styling */
+.courses{
+    text-align: right;
+    font-size: larger;
+}
+
+/* Courses description text alignment */
+.a{
+    text-align: right;
+}

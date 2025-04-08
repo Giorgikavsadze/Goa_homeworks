@@ -1,0 +1,7 @@
+2. თქვენი სიტყვებით ახსენით რა არის flexbox და როდის ვიყენებთ მას
+
+Flexible Box Layout ცნობილი როგორც Flexbox არის CSS ვებ განლაგების მოდელი.
+
+3. გააკეთეთ ნახაზი და ახსენით როგორ მუშაობს შემდეგი კუთვნილებები: display, justify-content, align-items, flex-direction
+
+(ნახაზი არის HOMEWORK ფოლდერში)

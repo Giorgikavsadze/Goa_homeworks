@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    border:blue solid;
+    padding: 100px;
+    margin:50px;
+    
+    
+}

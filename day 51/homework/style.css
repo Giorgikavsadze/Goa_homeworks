@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation-name: circle;
+    animation-duration: 5s;
+
+}
+
+
+@keyframes circle{
+    from {
+        
+        transform: scale(1);
+
+    }
+
+    20%{
+        
+        transform: translate(50px, -100px) scale(1.5);
+        
+        
+    }
+
+    50%{
+        transform: translate(110px, -150px) scale(2);
+    }
+
+    70%{
+        transform: translate(170px,15px) scale(1);
+    }
+
+    to{
+        transform: translate(250px, 100px) scale(0.6);
+    }
+}
+
+

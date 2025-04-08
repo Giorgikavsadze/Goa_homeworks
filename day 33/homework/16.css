@@ -1,0 +1,8 @@
+@font-face {
+    font-family:"play write";
+    src: url(PlaywriteIN-Light.ttf) format('opentype');
+}
+
+button{
+    font-family: "play write";
+}

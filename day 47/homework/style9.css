@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+
+#first {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 50px;
+    left: 50px;
+}
+
+#second {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 50px; 
+    left: 200px; 
+}

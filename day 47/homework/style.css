@@ -1,0 +1,7 @@
+div{
+    position: absolute;
+    left:48%;
+    border: 5px solid red;
+    height: 50px;
+    width: 50px;
+}

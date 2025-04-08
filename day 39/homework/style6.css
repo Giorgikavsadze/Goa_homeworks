@@ -1,0 +1,15 @@
+button {
+    border: solid 5px red;
+    font-style: italic;
+    padding: 10px 20px; 
+}
+
+div {
+    width: 50%;
+    color: black;
+    border: solid 5px black; 
+    background-color: white; 
+    padding: 20px;
+    
+    text-align: center;
+}

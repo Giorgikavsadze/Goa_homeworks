@@ -1,0 +1,11 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    box-shadow: 5px 10px 15px red;
+    transition: box-shadow 0.5s
+}
+
+div:hover{
+    box-shadow: 10px 15px 20px darkred;
+}

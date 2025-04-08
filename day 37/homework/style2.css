@@ -1,0 +1,25 @@
+html{
+    background-color: rgb(9, 155, 9);
+}
+
+td,th,table{
+    border:solid 1px ;
+    border-collapse:collapse;
+}
+
+table tr:nth-child(1){
+    background-color: yellow;
+
+}
+table tr:nth-child(2){
+    background-color:white;
+}
+table tr:nth-child(3){
+    background-color:white;
+}
+table tr:nth-child(4){
+    background-color:white;
+}
+table tr:nth-child(5){
+    background-color:white;
+}

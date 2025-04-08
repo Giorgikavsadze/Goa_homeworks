@@ -1,0 +1,9 @@
+div{
+    height: 500px ;
+    width: 1000px ;
+    border: red 5px solid;
+    border-radius: 30px;
+    background-image: url("image.png");
+    background-size: cover;
+
+}

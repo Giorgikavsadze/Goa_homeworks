@@ -1,0 +1,13 @@
+div{
+    border:solid black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left:300px;
+}

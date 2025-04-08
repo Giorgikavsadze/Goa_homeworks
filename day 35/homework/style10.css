@@ -1,0 +1,4 @@
+table,th,td,tr{
+    border:dotted #0000ff ;
+    border-collapse: collapse;
+}

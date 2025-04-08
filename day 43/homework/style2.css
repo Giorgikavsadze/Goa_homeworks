@@ -1,0 +1,48 @@
+header{
+    background-color: orange;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+section{
+    display:flex;
+    justify-content: space-between;
+    
+
+
+}
+
+article{
+    background-color: rgb(4, 131, 131);   
+    color: white;
+    width:50vh;
+    text-align: center;
+}
+
+main{
+    background-color: purple;
+    color: white;
+    height: 50vh;
+    width: 50vh;
+    text-align: center;
+}
+
+aside{
+    background-color: green;
+    color: white;
+    width:50vh;
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    background-color: rgb(255, 39, 208);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    font-size:larger ;
+}

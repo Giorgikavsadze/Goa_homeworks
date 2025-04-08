@@ -1,0 +1,11 @@
+input{
+    border:solid #ff0000 6px;
+    padding:5px 10px 10px 20px ;
+    background-color: black;
+    color: white;
+
+}
+
+::placeholder {
+    color:white;
+}

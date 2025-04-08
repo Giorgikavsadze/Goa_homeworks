@@ -1,0 +1,13 @@
+span{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: rgb(145, 0, 0) 5px solid;
+    border-radius: 20px;
+    
+}
+
+img{
+    width: 23px;
+    height: 20px;
+}

@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    
+
+}
+
+div {
+    border:  solid blue;
+    padding: 20px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    
+}

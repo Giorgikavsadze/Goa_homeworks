@@ -1,0 +1,62 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    height: 100vh;
+    background-color: rgb(71, 71, 71);
+}
+
+#parent{
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    animation-name: dice;
+    animation-duration: 5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+
+#dot{
+    
+    background-color: black;
+    border-radius:50%;
+    width: 15px;
+    height: 15px;
+    
+}
+
+
+@keyframes dice{
+    from{
+        transform: scale(1);
+        
+background-color: black;
+            border-radius:50%;
+            width: 15px;
+            height: 15px;
+            
+    
+
+    }
+    25%{ 
+        transform: rotate(90deg); 
+    }
+    50% { 
+        transform: rotate(180deg); 
+    }
+    75% { 
+        transform: rotate(270deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+
+    
+
+
+}

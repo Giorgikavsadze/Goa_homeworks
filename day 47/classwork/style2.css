@@ -1,0 +1,60 @@
+#parent{
+    
+    height: 800px;
+    width: 800px;
+    position: relative;
+    border: 3px dotted black
+}
+
+.child{
+width: 150px;
+height: 150px;
+position: absolute;
+text-align: center;
+color: white;
+font-size: 20px;
+font-weight: 900;
+
+}
+
+#red{
+    
+    background-color: red;
+    
+    top:0px;
+    left: 0px;
+    
+    
+}
+
+#green{
+    
+    background-color: green;
+    
+    top:0px;
+    right: 0px;
+}
+
+#blue{
+    
+    background-color: blue;
+    
+    bottom:0px;
+    left: 0px;
+}
+
+#purple{
+    
+    background-color: blueviolet;
+    
+    bottom:0px;
+    right: 0px;
+}
+
+#grey{
+    
+    background-color: grey;
+    
+    top:325px;
+    left: 325px;
+}

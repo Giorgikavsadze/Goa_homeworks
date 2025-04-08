@@ -1,0 +1,10 @@
+input{
+    color: blue;
+    border-radius: 20px;
+
+}
+
+input:hover{
+    color: yellowgreen;
+    background-color: black;
+}

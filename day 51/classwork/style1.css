@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+
+div{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color:aquamarine ;
+    animation-name:circle ;
+    animation-duration:5s ;
+}
+
+
+@keyframes circle{
+    from{
+        transform: scale(0.7);
+    }
+
+    25%{
+        transform: translate(100px, -150px) scale(0.3);
+    }
+
+    50%{
+        transform: translate(300px, 0px ) scale(1.5);
+    }
+
+    75%{
+        transform: translate(400px, 100px) scale(1);
+    }
+
+    to{
+        transform: translate(500px, -10px) scale(2);
+    }
+
+}

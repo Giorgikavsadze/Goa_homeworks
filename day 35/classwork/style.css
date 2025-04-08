@@ -1,0 +1,60 @@
+#red:hover{
+    font-size: large;
+    font-weight: 700;
+    color: #ff0000;
+}
+
+#blue:hover{
+    font-size: large;
+    font-weight: 700;
+    color: #0000ff;
+}
+
+#yellow:hover{
+    font-size: large;
+    font-weight: 700;
+    color: #ffff00;
+}
+
+#brown:hover{
+    font-size: large;
+    font-weight: 700;
+    color: #964B00;
+}
+
+#green:hover{
+    font-size: large;
+    font-weight: 700;
+    color: #00ff00;
+}
+
+
+#red:active{
+    font-size: small;
+    font-weight: 200;
+    color: #ffff00;
+}
+
+#blue:active{
+    font-size: small;
+    font-weight: 200;
+    color: #00ff00;
+}
+
+#yellow:active{
+    font-size: small;
+    font-weight: 200;
+    color: #ff00ff;
+}
+
+#brown:active{
+    font-size: small;
+    font-weight: 200;
+    color: #ff0000;
+}
+
+#green:active{
+    font-size: small;
+    font-weight: 200;
+    color: #0000ff;
+}

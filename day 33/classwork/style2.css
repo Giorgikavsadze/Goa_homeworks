@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Giga";
+    src: url(LexendGiga-Medium.ttf) format('opentype');
+}
+
+body{
+    font-family: "Giga";
+}
