@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+
+
+}
+
+
+#parent{
+    width: 1000px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 15px;
+}
+
+
+#parent div{
+    border: 2px solid black;
+    font-size:xx-large ;
+    font-weight: 900;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(47, 255, 47);
+}
+
+
+
+
+#first{
+    grid-area:1/1/2/8;
+}
+
+
+#second{
+    
+    grid-area: 2/1/4/2;
+}
+
+#third{
+    
+    grid-area: 2/2/3/8;
+}
+
+#fourth{
+    
+    grid-area: 3/2/4/5;
+}
+
+#fifth{
+    grid-area: 3/5/4/8;
+
+}
+
+
+#sixth{
+    grid-area: 4/1/5/8;
+}
+
+
+

@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    animation: rotation 6s  infinite ;
+    background-color: black;
+    
+
+}
+
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}

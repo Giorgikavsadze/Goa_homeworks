@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    animation:after 10s linear  ;
+    background-color: aqua;
+    border-radius: 50%;
+    
+}
+
+
+@keyframes after {
+    from{
+        opacity: 2;
+    }
+    50%{
+        opacity: 1;
+    }
+
+    to{
+        opacity: 0;
+    }
+}

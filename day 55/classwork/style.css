@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    animation: circle 5s linear infinite;
+
+}
+
+
+@keyframes circle{
+    from{
+        transform: scale(1);
+    }
+
+    to{
+        transform: translatex(500px) scale(1.5);
+    }
+
+
+}

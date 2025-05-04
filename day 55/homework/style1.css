@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    animation: change 6s  infinite ;
+    
+
+}
+
+
+@keyframes change {
+    from{
+        background-color: red;
+    }
+
+    to{
+        background-color: blue;
+    }
+}

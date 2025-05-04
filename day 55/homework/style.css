@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    animation: box 2s linear infinite ;
+    background-color: black;
+
+}
+
+
+@keyframes box {
+    from{
+        transform: translatex(0px);
+    }
+
+    to{
+        transform: translateX(300px);
+    }
+}

@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainDiv {
+    width: 800px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+#mainDiv div {
+    border: 5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: yellow;
+}
+
+#header {
+    grid-area: 1 / 1 / 2 / 7;
+}
+
+#article {
+    grid-area: 2 / 1 / 6 / 5;
+}
+
+#nav {
+    grid-area: 2 / 5 / 6 / 6;
+}
+
+#Ads {
+    grid-area: 2 / 6 / 6 / 7;
+}
+
+#Footer {
+    grid-area: 6 / 1 / 7 / 7;
+}

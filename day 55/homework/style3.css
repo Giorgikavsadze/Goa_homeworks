@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    animation: pulse 2s infinite ;
+    background-color: black;
+    
+
+}
+
+
+@keyframes pulse {
+    from{
+        transform: scale(0.6);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}

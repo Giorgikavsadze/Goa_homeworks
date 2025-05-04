@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#mainDiv{
+    width: 900px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.child{
+    width: 300px;
+    height: 100%;
+    background-color: green;
+    border: 2px solid white;
+}
+
+@media (max-width:800px){
+    #mainDiv{
+        flex-direction: column;
+    }
+}

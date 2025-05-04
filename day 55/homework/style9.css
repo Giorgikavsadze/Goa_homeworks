@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+
+
+
+#divs{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+    
+}
+
+.first{
+    animation: idk 2s linear 2s ;
+}
+
+.second{
+    animation: idk 2s linear 4s ;
+}
+
+.third{
+    animation: idk 2s linear 6s ;
+}
+
+
+
+
+@keyframes idk {
+    from{
+        transform: translatey(0px);
+    }
+    50%{
+        transform: translatey(-150px);
+    }
+
+    to{
+        transform: translatey(0px);
+    }
+}
