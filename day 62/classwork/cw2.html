@@ -1,0 +1,34 @@
+<!--საკლასო დავალება:
+
+html-ის დოკუმენტში დაამატეთ ერთი ღილაკი, რომლის ID იქნება button-main და ერთი პარაგრაფი, რომლის ID იქნება p-main.
+
+js-ში წამოიღეთ ორივე ელემენტი ID-ის გამოყენებით.
+
+ღილაკს შეუცვალეთ ფონი და ტექსტის ფერი, ხოლო პარაგრაფს შეუცვალეთ ფონტის ზომა და ტექსტ კონტენტი  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="button-main">click me</button>
+    <p id="p-main">Lorem ipsum dolor sit amet.</p>
+
+
+    <script>
+        let button= document.getElementById("button-main")
+        let para= document.getElementById("p-main")
+
+        button.style.color="white"
+        button.style.backgroundColor="black"
+
+        para.style.fontSize="20px"
+        para.textContent="Goal-Oriented-Academy"
+
+    </script>
+    
+</body>
+</html>
