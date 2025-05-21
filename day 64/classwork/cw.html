@@ -1,0 +1,27 @@
+<!-- საკლასო დავალება:
+
+html-ში შექმენით ერთი form, სადაც გექნებათ ერთმანეთთან დაკავშირებული label და input. ფორმას ბოლოში გაუწერეთ დადასტურების ღილაკი.
+
+როდესაც ფორმა დადასტურდება (onsubmit ატრიბუტი), უნდა გამოიძახოთ ფუნქცია, რომელიც წამოიღებს ინფუთის მნიშვნელობას (.value) და კონსოლში გამოიტანს მას.
+
+კოდი ისე დაწერეთ, რომ ფორმის დადასტურებისას ვებსაიტი არ დარეფრეშდეს -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="input1(event)">
+        <label for="text"></label>
+        <input id="text" type="text">
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="cw.js"></script>
+    
+</body>
+</html>

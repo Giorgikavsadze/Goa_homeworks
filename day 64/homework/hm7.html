@@ -1,0 +1,27 @@
+<!-- Build a form with two text inputs (like "first name" and "last name") and a button. 
+On button click, combine the values and display the full name inside an <h1> element on the page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="header" style="text-align: center;"></h1>
+
+    <form>
+        <input id="name" required placeholder="Enter your first name">
+        <br><br>
+        <input id="surname" required placeholder="Enter your last name">
+        <br><br>
+        <button type="submit" onclick="Combine(event)">Click to submit </button>
+    </form>
+
+
+    <script src="hm7.js"></script>
+    
+</body>
+</html>
