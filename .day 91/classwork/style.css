@@ -1,0 +1,64 @@
+.main-div {
+    background-color: hsl(13, 31%, 94%);
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+
+.left-section {
+    flex: 1;
+}
+
+.title {
+    margin-left: 60px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.food {
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.food img {
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price {
+    color: hsl(14, 86%, 42%);
+    font-weight: bold;
+}
+
+.product-name {
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.name {
+    color: hsl(14, 25%, 72%);
+    margin: 0;
+}
+
+
+.cart {
+    background:hsl(20, 50%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+.food{
+    position: relative;
+    display: inline-block;
+}
+

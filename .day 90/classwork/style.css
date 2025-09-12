@@ -1,0 +1,101 @@
+body{
+    background-color:hsl(226, 43%, 10%);
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: hsl(235, 45%, 61%);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+#Jeremy_side{
+    background-color:hsl(246, 80%, 60%) ;
+    grid-area:1/1/2/3 ;
+
+
+
+}
+#Name{
+    color: white;
+}
+
+#options {
+    background-color: hsl(235, 46%, 20%);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#options p {
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+#active {
+    color: white;
+    font-weight: bold;
+}
+
+#Jeremy image{
+    width: 20px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+
+#Work{
+    background-color: hsl(235, 46%, 20%);
+    border-radius:20px;
+    
+    grid-area: 2/1/3/2;
+}
+#Play{
+    background-color: hsl(235, 46%, 20%);
+    border-radius:20px;
+    
+    grid-area: 3/1/4/2;
+}
+
+#Study{
+    background-color: hsl(235, 46%, 20%);
+    border-radius:20px;
+    
+    grid-area: 4/1/5/2;
+}
+#Exercise{
+    background-color: hsl(235, 46%, 20%);
+    border-radius:20px;
+    
+    grid-area: 2/2/3/3;
+}
+#Social{
+    background-color: hsl(235, 46%, 20%);
+    border-radius:20px;
+    
+    grid-area: 3/2/4/3;
+}
+#Self_Care{
+    background-color: hsl(235, 46%, 20%);
+    border-radius:20px;
+    
+    grid-area: 4/2/5/3;
+}
+#work{
+    color: white;
+    font-size: 18px;
+    margin: 20px;
+
+}
+.dots{
+    color: white;
+    text-align: end;
+}
+
