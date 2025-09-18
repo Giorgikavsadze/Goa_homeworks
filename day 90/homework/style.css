@@ -1,0 +1,132 @@
+.Profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.NameInfo{
+    background-color: hsl(246, 80%, 60%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.State{
+    background-color: hsl(235, 46%, 20%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.AllStates{
+    display: flex;
+    flex-direction: column;
+    color: hsl(235, 45%, 61%);
+    margin-left: 15px;
+}
+
+
+.Active{
+    color: white;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+
+.Profile, .State{
+    width: 130px;
+    height: 350px;
+}
+
+.InnerName{
+    margin-left: 15px;
+    color: white;
+}
+
+.InnerName h2 b{
+    font-size: small;
+}
+
+.Box{
+    background-color: hsl(235, 46%, 20%);
+    height: 160px;
+    width: 170px;
+    border-radius: 5px;
+}
+
+.Main{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: auto;
+}
+
+.InnerBox{
+    color: white;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.InnerBox h2{
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.InnerBox p{
+    height: 5px;
+}
+
+.InnerBox b{
+    color: hsl(235, 45%, 61%);
+    margin-top: 15px;
+    font-size: small;
+}
+
+.Stats{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+
+@media (max-width: 1024px) {
+    .Stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Profile, .State {
+        width: 100%;
+        height: auto;
+    }
+
+    .Main {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .Stats {
+        grid-template-columns: 1fr;
+    }
+
+    .Box {
+        width: 100%;
+        height: auto;
+    }
+
+    .InnerBox h2 {
+        font-size: 30px;
+    }
+}
+
+body{
+    background-color: hsl(226, 43%, 10%);
+}
